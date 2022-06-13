@@ -1,0 +1,115 @@
+header{
+    background-color: #fff;
+}
+
+.top-headbar{
+    padding: 22px 0;
+}
+
+.tophead-inner-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-navigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-navigation .main-navigation ul {
+    display: flex;
+}
+
+.main-navigation ul li {
+    list-style: none;
+}
+
+.main-navigation ul li .active{
+    color: #2289FF;
+}
+
+.main-navigation ul li a{
+    margin-left: 60px;
+    font-size: 20px;
+    font-family: "Poppins";
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.top-rightbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 490px;
+    width: 100%;
+}
+
+.search-input-form{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 1.5rem;
+}
+
+.search-input-form .search-icon{
+    position: absolute;
+    content: '';
+    left: 15px;
+    top: 0;
+    bottom: 0;
+    border: none;
+    background: none;
+}
+
+.search-input-form .form-control{
+    padding: 8px;
+    border-radius: 18px;
+    border: 1px dashed #707070;
+}
+
+.notification-wrapper{
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    background-color: #E8EBF4;
+}
+
+.notification-wrapper .notify-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 1.5rem;
+    color: #2289FF;
+    position: relative;
+}
+
+.notify-icon::after{
+    position: absolute;
+    content: '1';
+    top: 12px;
+    right: 16px;
+    border-radius: 50%;
+    font-size: 10px;
+    color: #fff;    
+    background-color: #FE7847;
+    min-width: 0.6rem;
+    padding: 0.2rem;
+    text-align: center;
+}   
+
+.btn-login{
+    min-width: 179px;
+    display: inline-block;
+    background-color: #2289FF;
+    border: 2px solid #2289FF;
+    padding: 17px 0;
+    color: #fff;
+    border-radius: 14px;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+}
