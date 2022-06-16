@@ -1,5 +1,9 @@
 /* Home Banner Section Start */
 
+.modern-banner-wrapper{
+  min-height: 932px;
+}
+
 .home-banner{
   position: relative;
 }
@@ -84,6 +88,9 @@
 }
 
 .modern-filter-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     margin-top: 25px;
     max-width: 1535px;
     width: 100%;
@@ -103,7 +110,7 @@
 
 .modern-filter-search-block .modern-filter-block-wrapper{
    display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
 }
 
 .modern-filter-search-block h5 {
@@ -162,4 +169,110 @@
   font-family: "Poppins";
   font-weight: normal;
   font-size: 14px;
+}
+
+.plus-icon{
+  color: #186AA5;
+}
+
+.modern-filter-content{
+  color: #186AA5;
+  font-family: "Poppins";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.btn-search{
+  min-width: 212px;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #2289FF;
+  padding: 18px 0;
+  text-align: center;
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 22px;
+  line-height: 32px;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+.modern-appt-category-wrapper{
+  padding-top: 136px;
+}
+
+.modern-appt-heading-wrapper{
+  text-align: center;
+}
+
+.modern-appt-category-wrapper h2{
+  color: #14395B;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+}
+
+.modern-appt-category-wrapper span{
+  color: #186AA5;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+}
+
+.modern-appt-category-wrapper p{
+  padding-top: 2.5rem;
+  font-family: "Poppins";
+  font-size: 24px;
+  color: #8D9598;
+  line-height: 35px;
+}
+
+.modern-appt-box-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.modern-appt-cmn-box{
+  margin: 85px 0;
+  max-width: 385px;
+  width: 100%;
+  height: 332px;
+  border-radius: 32px;
+  box-shadow: 0 3px 30px #f5f5f5;
+  background-color: #fff;
+  padding: 35px;
+}
+
+.modern-appt-cmn-box img{
+  object-fit: contain;
+  object-position: center;
+  border-radius: 30px;
+}
+
+.modern-appt-cmn-box h4{
+  color: #8D9598;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35px;
+  padding: 18px 0;
+}
+
+.btn-continue{
+  min-width: 591px;
+  display: inline-block;
+  background-color: #186AA5;
+  padding: 28px 0;
+  border-radius: 20px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Poppins";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
 }
